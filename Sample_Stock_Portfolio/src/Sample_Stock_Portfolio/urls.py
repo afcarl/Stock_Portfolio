@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^demo/', 'portfolio.views.my_view'),
+    url(r'^portfolio/', 'portfolio.views.get_on_page'),
 ]
